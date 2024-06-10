@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ENCUESTA</title>
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <div class="cuerpo">
+            <h1 class="tit">VIDEOJUEGOS</h1>
+            <form>
+                <div class="fav">
+                    <h2>Videojuego Favorito:</h2>
+                    <input type="text" id="juego" name="juego" placeholder="Ingrese el nombre">
+                </div>
+                <div class="consol">
+                    <h2>Consola Favorita</h2><br>
+                    <div class="cf">
+                        <div>
+                            <input type="radio" id="sw" name="consola">
+                            <label for="sw">Nintendo Switch</label><br>
+                            <input type="radio" id="xbox" name="consola">
+                            <label for="xbox">Xbox</label><br>
+                            <input type="radio" id="ps" name="consola">
+                            <label for="ps">PlayStation</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="pc" name="consola">
+                            <label for="pc">PC</label><br>
+                            <input type="radio" id="otro" name="consola">
+                            <label for="otro">Otra</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="consolJ">
+                    <h2>¿En qué consolas has jugado?</h2>
+                    <div class="cj">
+                        <div>
+                            <input type="checkbox" id="ns" name="conJug">
+                            <label for="ns">Nintendo Switch</label><br>
+                            <input type="checkbox" id="x" name="conJug">
+                            <label for="x">Xbox</label><br>
+                            <input type="checkbox" id="p" name="conJug">
+                            <label for="p">PlayStation</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="c" name="conJug">
+                            <label for="c">PC</label><br>
+                            <input type="checkbox" id="o" name="conJug">
+                            <label for="o">Otra</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="lastPlay">
+                    <h2>¿Cuándo fue la ultima vez que jugaste?</h2>
+                    <input type="date" id="date" name="date">
+                </div>
+                <center><button>ENVIAR</button></center>
+            </form>
+        </div>
+    </body>
+</html>
